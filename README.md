@@ -6,7 +6,7 @@ This project can be used as a starting point when creating Ruby/Cucumber scripts
 ## Usage
 
 All you have to do to get this project running (assuming you have all the necessary gems installed) is to modify the 'Hooks.rb' file and  provide the local file path of your Attachmate/Quik3270 session file.
-Her is an example of how to change the session file path
+Here is an example of how to change the session file path
 
     Before do
       @emulator = TE3270.emulator_for :extra do |platform|
